@@ -1,16 +1,11 @@
 # Introduction
+This project uses a 2023 jobs database to explore trends in the data analyst job market. By analyzing salaries, required skills, and the demand for niche expertise, the project aims to provide actionable insights into what drives employability and compensation for data analysts in today’s competitive job market.
 
-Dive into the data job market! Focusing on data analysis roles, this project explores the top-paying jobs, in-demand skills, and where high demand meets high salary in data analysis.
+Data was extracted from [SQL Course](https://lukebarousse.com/sql) and comprised of insights on job titles, salaries, locations, and essential skills.
 
-SQL queries? check them out here: [projecr_sql folder](/project_sql/)
+---
 
-# Background
-
-Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
-
-Data was extracted from the YouTube [SQL Course](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills.
-
-### I wanted to answer the following questions using SQL queries:
+# Questions I wanted to answer through my SQL queries were:
 
 1. What are the top-paying data analyst jobs?
 2. What skills are required for these top-paying jobs?
@@ -18,20 +13,17 @@ Data was extracted from the YouTube [SQL Course](https://lukebarousse.com/sql). 
 4. Which skills are associated with higher salaries?
 5. What are the most optimal skills to learn?
 
+The SQL queries can be obtained in this folder: [project_sql folder](/project_sql/)
+
 # Tools I Used
+1. **SQL:** Used to query the database and unearth critical insights.
+2. **PostgreSQL:** The chosen database management system, ideal for handling the job posting data.
+3. **Visual Studio Code:** Used to execute SQL queries.
+4. **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 
-For my deep dive into the data analyst job market, I made use of several key tools to analyze and manage data efficiently:
+---
 
-- **SQL:** The backbone of my analysis, allowing me to query the database and unearth critical insights.
-- **PostgreSQL:** The database management system I used to store and process job posting data.
-- **Docker**: I utilized Docker to containerize my database environment, ensuring a seamless and reproducible setup.
-- **Adminer**: A lightweight database management tool that allowed me to interact with my PostgreSQL database via a simple web interface.
-- **Visual Studio Code:** My go-to code editor for writing and executing SQL queries efficiently.
-- **Git & GitHub:** Essential for version control, collaboration, and tracking my SQL scripts and analysis.
-
-This setup allowed me to execute SQL queries smoothly in a controlled environment, ensuring consistency and ease of use across different systems. 🚀
-
-# The Analysis
+#  📊The Analysis
 
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
 
